@@ -18,7 +18,7 @@ from matplotlib import pyplot as plt
 
 # Запуск программы с командной строки
 # cd C:\CREESTL\Programming\PythonCoding\semestr_3\parking_lot_detection
-# python main.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mobilenet_ssd/MobileNetSSD_deploy.caffemodel --input parking_lots/video_3.mp4 --output output --skip-frames 5
+# python main.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mobilenet_ssd/MobileNetSSD_deploy.caffemodel --input parking_lots/video_1.mp4 --output output --skip-frames 5
 
 # парсер аргументов с командной строки
 ap = argparse.ArgumentParser()
